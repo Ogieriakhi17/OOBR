@@ -1,11 +1,13 @@
 import { View, Text } from "react-native"
 import { SafeAreaView } from "react-native-safe-area-context"
-const Home = () => {
+
+
+const Rides = () => {
     return (
         <SafeAreaView>
-            <Text>Home inside in the roots</Text>
+            <Text>Home</Text>
         </SafeAreaView>
     )
 }
 
-export default Home;
+export default Rides;
