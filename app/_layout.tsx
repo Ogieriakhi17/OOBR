@@ -4,6 +4,7 @@ import { StatusBar } from 'expo-status-bar';
 import 'react-native-reanimated';
 import {useEffect} from "react";
 import * as SplashScreen from 'expo-splash-screen';
+import "@/global.css"
 
 export default function RootLayout() {
     const [loaded] = useFonts({
