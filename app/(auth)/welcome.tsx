@@ -63,6 +63,8 @@ const Home = () => {
                 }
                 className="w-11/12 mt-10 mb-5"
             />
+
+
         </SafeAreaView>
     );
 };

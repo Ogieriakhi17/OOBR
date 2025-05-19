@@ -1,7 +1,7 @@
 import { TouchableOpacity, Text } from "react-native";
 
 import { ButtonProps } from "@/types/types";
-
+import Swiper from "react-native-swiper";
 const getBgVariantStyle = (variant: ButtonProps["bgVariant"]) => {
     switch (variant) {
         case "secondary":
@@ -42,6 +42,8 @@ const CustomButton = ({
                           className,
                           ...props
                       }: ButtonProps) => {
+    console.log("Rendering CustomButton with title:", title); // ✅ LOG
+
     return (
         <TouchableOpacity
             onPress={onPress}
