@@ -42,7 +42,6 @@ const CustomButton = ({
                           className,
                           ...props
                       }: ButtonProps) => {
-    console.log("Rendering CustomButton with title:", title); // ✅ LOG
 
     return (
         <TouchableOpacity
