@@ -1,4 +1,4 @@
-import { useAuth } from "@clerk/clerk-expo";
+import {ClerkProvider, useAuth} from "@clerk/clerk-expo";
 import { Redirect } from "expo-router";
 
 const Page = () => {
