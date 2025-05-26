@@ -9,7 +9,7 @@ import {
     Platform,
 } from "react-native";
 
-import { InputFieldProps } from "@/types/types";
+import { InputFieldProps } from "@/types/types"; // ggs
 
 const InputField = ({
                         label,
